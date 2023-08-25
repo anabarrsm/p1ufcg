@@ -1,0 +1,2 @@
+- input: "7.5\n6.0\n"
+  match: ".*hipotenusa.*7.50.*cateto 1: 6.00.*cateto 2: 4.50.*"

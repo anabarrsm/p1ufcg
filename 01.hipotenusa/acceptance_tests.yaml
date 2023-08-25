@@ -1,0 +1,10 @@
+- input: "15.0\n20.0\n"
+  match: .*\b25.0.*
+
+- input: "30.0\n40.0\n"
+  match: .*\b50.0.*
+
+# se houver arredondamento pra uma casa, a saída
+# será 11.5; caso contrário 11.49...
+- input: "10.3\n5.1\n"
+  match: .*\b11.[45].*

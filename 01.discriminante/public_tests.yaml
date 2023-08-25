@@ -1,0 +1,5 @@
+# Neste teste, a entrada é:
+# 1 <enter>, outro 1 <enter> e -12 <enter>
+# E a saída é 49.
+- input: "1\n1\n-12\n"
+  tokens: "49"

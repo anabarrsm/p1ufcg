@@ -1,0 +1,15 @@
+# a entrada é: 2 <enter> 5 <enter> 2 <enter>
+- input: "2\n5\n2\n"
+  tokens: "9"
+
+- input: "1\n6\n9\n"
+  tokens: "0"
+
+# tokens não funciona com negativos ("-" antes dos dígitos)
+# o \b é necessário pra evitar números como -80, por exemplo
+# não deve ter \b antes do "-" (pode não ser borda de palavra)
+- input: "3\n2\n1\n"
+  match: .*-8\b.*
+
+- input: "1\n1\n4\n"
+  match: .*-15\b.*
