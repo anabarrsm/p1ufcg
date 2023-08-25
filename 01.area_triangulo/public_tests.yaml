@@ -1,0 +1,8 @@
+# Lembre que `\n` é um código de escape para representar o caractere _newline_
+# (que, na prática, é um <Enter>).
+
+- input: "8.2\n4.1\n"
+  output: "16.81\n"
+
+- input: "5.1\n10.81\n"
+  output: "27.57\n"
